@@ -84,7 +84,7 @@ function showItem() {
     bodyDivRe.className = "bodyDiv";
     const BodyContentRe = document.createElement("h1");
     BodyContentRe.className = "bodyContent";
-    BodyContentRe.textContent = BodyContent.value;
+    BodyContentRe.textContent = BodyContent.textContent;
     console.log(fatherDiv);
     bodyDivRe.appendChild(BodyContentRe);
     //bodyEnd
